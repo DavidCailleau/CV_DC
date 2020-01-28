@@ -1,0 +1,60 @@
+/* Eléments principaux de la page */
+
+html
+{
+    font-size: 62.5%
+}
+
+body
+{
+    font-family: 'Roboto', 'Trebuchet MS', Arial, sans-serif;
+    color : #455A64;
+    font-size: 1.6rem;
+}
+
+h3, h4
+{
+    font-weight: bold;
+    color :#212121;
+}
+
+
+
+
+
+/*ASIDE */
+
+aside
+{
+    color :#212121;
+    background: #00897B;
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    text-align: center;
+}
+
+aside h3
+{
+    background-color: #212121;
+    color: #00897B;
+}
+
+#contact p
+{
+    text-align: left;
+    margin-left: 4rem;
+}
+
+#apropos p
+{
+    text-align: justify;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+img 
+{
+        border: 3px solid #004D40;
+        border-radius : 50%;
+}
