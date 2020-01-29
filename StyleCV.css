@@ -12,29 +12,40 @@ body
     font-size: 1.6rem;
 }
 
+
+
 h3, h4
 {
     font-weight: bold;
     color :#212121;
 }
 
+#blocpage
+{
+    display:flex;
+    flex-direction: row;
+}
+
+/*leftsection - Partie gauche du CV */
 
 
+img 
+{
+        border: 3px solid #004D40;
+        border-radius : 50%;
+}
 
-
-/*ASIDE */
-
-aside
+#leftsection
 {
     color :#212121;
     background: #00897B;
     display: flex;
     flex-direction: column;
-    width: 33%;
+    width: 30%;
     text-align: center;
 }
 
-aside h3
+#leftsection h3
 {
     background-color: #212121;
     color: #00897B;
@@ -53,8 +64,114 @@ aside h3
     margin-right: 4rem;
 }
 
-img 
+#loisirs i
 {
-        border: 3px solid #004D40;
-        border-radius : 50%;
+    border: 2px solid #212121;
+    border-radius: 50%;
+    color: #212121;
+    padding: 1.4rem;
+    width: 4rem;
+    height: 4rem;
 }
+
+#contact
+{
+    height: 25%;
+}
+
+#apropos
+{
+    height: 40%;
+}
+
+/* rightsection - partie droite du CV */
+/* header */
+
+#rightsection
+{
+    width: 70%;
+    margin-left: 6rem;
+    padding-left: 0;
+}
+
+header h1 span
+{
+    color: #00897B;
+}
+
+header h2 span
+{
+    border-bottom: 2px solid #00897B;
+}
+
+h1
+{
+    font-size: 6rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h2
+{
+ margin-top: 0;
+ margin-bottom: 6rem;   
+}
+
+/* section formation */
+
+.formation h3, .experience h3, footer h3
+{
+    border-bottom: 2px solid #00897B;
+    padding-bottom: 2rem;
+}
+
+.formation h3 i, .experience h3 i, footer h3 i
+{
+    margin-right: 4rem;
+}
+
+.formation1, .formation2, .formation3, .experience1, .experience2, .experience3
+{
+    display: flex;
+    flex-direction: row;
+         
+}
+
+.date
+{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.date p
+{
+    margin-left: 1.5rem;
+}
+
+.where
+{
+    width: 75%;
+}
+
+#rightsection i
+{
+    color: #00897b;
+}
+
+
+/* Footer Recommandation */
+
+
+
+.reco
+{
+    display:flex;
+    flex-direction: row;
+}
+
+.reco1, .reco2
+ {
+     width: 50%;
+ }
