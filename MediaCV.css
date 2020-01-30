@@ -1,0 +1,89 @@
+/* media queries */
+
+/********BREAKPOINTS********
+Moyenne résolution = 1024px
+Petite résolution = 767px
+****************************/
+
+
+@media screen and (max-width: 1024px)
+/* réduction de la taille des police, des icones et de la photo */
+{
+
+    body
+    {
+        width:auto;
+        font-size: 1.3rem
+    }
+
+    h1
+    {
+        font-size: 4rem;
+    }
+
+    #loisirs i
+    {
+        border: 1.6px solid #212121;
+        border-radius: 50%;
+        color: #212121;
+        padding: 1.2rem;
+        width: 3rem;
+        height: 3rem;
+    }
+
+    img
+    {
+        width:60%;
+    }
+
+}
+
+@media screen and  (max-width: 767px)
+/* Affichage en colonne, réduction de la taille des police et des icones,
+modification pour affichage de la photo */
+{
+    #blocpage
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    body
+    {
+    background-image: url("images/DavidC2.jpg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 15%;
+    font-size: 1.1rem;
+    }
+
+    img
+    {
+        display:none;
+    }
+
+    #leftsection
+    {
+        width:auto;
+    }
+
+    #leftsection :nth-child(2) {order: 2;}
+    #leftsection :nth-child(3) {order: 1;}
+    #leftsection :nth-child(4) {order: 3;}
+
+
+    h1
+    {
+        font-size: 3rem;
+    }
+
+    #loisirs i
+    {
+        border: 1.4px solid #212121;
+        border-radius: 50%;
+        color: #212121;
+        padding: 1rem;
+        width: 2rem;
+        height: 2rem;
+    }
+}

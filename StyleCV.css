@@ -117,7 +117,7 @@ h2
  margin-bottom: 6rem;   
 }
 
-/* section formation */
+/* section formation et experience */
 
 .formation h3, .experience h3, footer h3
 {
@@ -134,8 +134,8 @@ h2
 {
     display: flex;
     flex-direction: row;
-         
 }
+         
 
 .date
 {
@@ -161,7 +161,7 @@ h2
 }
 
 
-/* Footer Recommandation */
+/* Footer - Recommandation */
 
 
 
