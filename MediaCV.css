@@ -77,6 +77,12 @@ modification pour affichage de la photo */
         font-size: 3rem;
     }
 
+    #contact
+    {
+        height:auto;
+    }
+
+
     #loisirs i
     {
         border: 1.4px solid #212121;
