@@ -12,7 +12,10 @@ body
     font-size: 1.6rem;
 }
 
-
+h1, h3
+{
+    text-transform: uppercase;
+}
 
 h3, h4
 {
@@ -38,7 +41,7 @@ img
 #leftsection
 {
     color :#212121;
-    background: #00897B;
+    background: #26C6DA;
     display: flex;
     flex-direction: column;
     width: 30%;
@@ -48,7 +51,7 @@ img
 #leftsection h3
 {
     background-color: #212121;
-    color: #00897B;
+    color: #26C6DA;
 }
 
 #contact p
@@ -96,12 +99,12 @@ img
 
 header h1 span
 {
-    color: #00897B;
+    color: #26C6DA;
 }
 
 header h2 span
 {
-    border-bottom: 2px solid #00897B;
+    border-bottom: 2px solid #26C6DA;
 }
 
 h1
@@ -121,7 +124,7 @@ h2
 
 .formation h3, .experience h3, footer h3
 {
-    border-bottom: 2px solid #00897B;
+    border-bottom: 2px solid #26C6DA;
     padding-bottom: 2rem;
 }
 
@@ -157,7 +160,7 @@ h2
 
 #rightsection i
 {
-    color: #00897b;
+    color: #26C6DA;
 }
 
 

@@ -50,16 +50,15 @@ modification pour affichage de la photo */
 
     body
     {
-    background-image: url("images/DavidC2.jpg");
-    background-repeat: no-repeat;
-    background-position: top right;
-    background-size: 15%;
     font-size: 1.1rem;
     }
 
     img
     {
-        display:none;
+        position: absolute;
+        top: 0;
+        right: 10%;
+        width: 15%;
     }
 
     #leftsection

@@ -6,10 +6,10 @@
         <meta name="keywords" content="HTML,CSS,XML,JavaScript">
         <meta name="author" content="David Cailleau">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta property="og:title" content="CV David Cailleau"/>
+        <meta property="og:title" content="CV en ligne de David Cailleau"/>
         <meta property="og:type" content="website"/>
-        <meta property="og:url" content="http://www.example.com/"/>
-        <meta property="og:image" content="http://example.com/image.jpg"/>
+        <meta property="og:url" content="https://davidcailleau.github.io/CV_DC/"/>
+        <meta property="og:image" content="https://davidcailleau.github.io/CV_DC/image.jpg"/>
         <meta property="og:description" content="CV en ligne de David Cailleau"/>
         <link rel="Stylesheet" href="StyleCV.css"/>
         <link rel="Stylesheet" media="screen" href="MediaCV.css"/>
@@ -21,10 +21,10 @@
 
     <body>
         <div id="blocpage">
-            <section id="leftsection">
-                <p id="photo_DavidC"><img src="images/DavidC.jpg" alt="Photo de David Cailleau" /></p>
-                <div id="contact">
-                    <h3>CONTACT</h3>
+            <div id="leftsection">
+                <figure id="photo_DavidC"><img src="images/DavidC.jpg" alt="Photo de David Cailleau" /></figure>
+                <section id="contact">
+                    <h3>contact</h3>
                     <p>Adresse<br />
                     Tigery, France</p>
                     <p>Téléphone<br />
@@ -35,18 +35,18 @@
                     www.name.com</p>
                     <p>Skype<br />
                     @nom_dutilisateur</p>
-                </div>
+                </section>
 
-                <div id="apropos">
-                    <h3>A PROPOS DE MOI</h3>
+                <section id="apropos">
+                    <h3>à propos de moi</h3>
                     <p>Après 18 ans de carrière au sein de l'entreprise Accor, ma vie prend un nouveau tournant. 
                         Je suis actuellement en congé de reclassement. Je mets celui-ci à profit pour me     reconvertir dans le 
                         développement Web.
                     </p>
-                </div>
+                </section>
 
-                <div id="loisirs">
-                    <h3>LOISIRS</h3>
+                <section id="loisirs">
+                    <h3>loisirs</h3>
                     <div class="icon">
                         <i class="fas fa-book fa-2x"></i>
                         <i class="fas fa-film fa-2x"></i>
@@ -54,17 +54,17 @@
                         <i class="fas fa-futbol fa-2x"></i>
                         <i class="fas fa-music fa-2x"></i>
                     </div>                            
-                </div>
-            </section>
-            <section id="rightsection">
+                </section>
+            </div>
+            <div id="rightsection">
                 <header>
-                    <h1><span>DAVID</span> CAILLEAU</h1>
+                    <h1><span>david</span> cailleau</h1>
                     <h2><span>Dével</span>oppeur Web Freelance</h2>
                 </header>
 
                 <section>
-                    <article class="formation">
-                        <h3><i class="fas fa-university fa-2x"></i>FORMATION</h3>
+                    <section class="formation">
+                        <h3><i class="fas fa-university fa-2x"></i>formation</h3>
 
                         <div class="formation1">
                             <div class="date">
@@ -96,10 +96,10 @@
                                 <p>Baccalauréat des Sciences et des Technologies Tertiaires option Comptabilité et Gestion </p>
                             </div>
                         </div>              
-                    </article>
+                    </section>
 
-                    <article class="experience">
-                        <h3><i class="fas fa-briefcase fa-2x"></i>EXPERIENCE PROFESSIONNELLE</h3>
+                    <section class="experience">
+                        <h3><i class="fas fa-briefcase fa-2x"></i>expérience professionnelle</h3>
 
                         <div class="experience1">
                             <div class="date">
@@ -139,11 +139,11 @@
                                 Support de niveau 2 des hôtels, du Marketing et des Revenue Managers Regionnal</p>
                             </div>
                         </div>               
-                    </article>
+                    </section>
                 </section>
 
                 <footer>
-                    <h3><i class="fas fa-pen-fancy fa-2x"></i>RECOMMANDATIONS</h3>
+                    <h3><i class="fas fa-pen-fancy fa-2x"></i>recommandations</h3>
          
                     <div class="reco">
                         <div class="reco1">
@@ -160,7 +160,7 @@
                         </div>
                     </div>
                 </footer>
-            </section>
+            </div>
         </div>        
     </body>
 </html>
