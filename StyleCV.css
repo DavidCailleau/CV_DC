@@ -34,14 +34,14 @@ h3, h4
 
 img 
 {
-        border: 3px solid #1976D2;
+        border: 3px solid #6D4C41;
         border-radius : 50%;
 }
 
 #leftsection
 {
     color :#212121;
-    background: #1976D2;
+    background: #BCAAA4;
     display: flex;
     flex-direction: column;
     width: 30%;
@@ -51,7 +51,7 @@ img
 #leftsection h3
 {
     background-color: #212121;
-    color: #1976D2;
+    color: #BCAAA4;
 }
 
 #contact p
@@ -99,12 +99,12 @@ img
 
 header h1 span
 {
-    color: #1976D2;
+    color: #6D4C41;
 }
 
 header h2 span
 {
-    border-bottom: 2px solid #1976D2;
+    border-bottom: 2px solid #6D4C41;
 }
 
 h1
@@ -124,7 +124,7 @@ h2
 
 .formation h3, .experience h3, footer h3
 {
-    border-bottom: 2px solid #1976D2;
+    border-bottom: 2px solid #6D4C41;
     padding-bottom: 2rem;
 }
 
@@ -160,7 +160,7 @@ h2
 
 #rightsection i
 {
-    color: #1976D2;
+    color: #6D4C41;
 }
 
 

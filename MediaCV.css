@@ -21,6 +21,13 @@ Petite résolution = 767px
         font-size: 4rem;
     }
 
+    #apropos p
+    {
+        text-align: left;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
     #loisirs i
     {
         border: 1.6px solid #212121;
@@ -33,7 +40,7 @@ Petite résolution = 767px
 
     img
     {
-        width:60%;
+        width:70%;
     }
 
 }
