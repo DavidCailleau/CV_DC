@@ -34,7 +34,7 @@ Petite résolution = 767px
   img {
     width: 70%;
   }
-
+}
 
 /* Format smartphone : Affichage en colonne, réduction de la taille des police et des icones,
 modification pour affichage de la photo */
@@ -82,4 +82,4 @@ modification pour affichage de la photo */
   #contact {
     height: auto;
   }
-
+}
