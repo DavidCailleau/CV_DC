@@ -5,96 +5,81 @@ Moyenne résolution = 1024px
 Petite résolution = 767px
 ****************************/
 
+/* Format Tablette : réduction de la taille des police, des icones et de la photo */
+@media screen and (max-width: 1024px) {
+  body {
+    width: auto;
+    font-size: 1.4rem;
+  }
 
-@media screen and (max-width: 1024px)
-/* réduction de la taille des police, des icones et de la photo */
-{
+  .nom {
+    font-size: 4rem;
+  }
 
-    body
-    {
-        width:auto;
-        font-size: 1.4rem
-    }
+  #apropos p {
+    text-align: left;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
 
-    h1
-    {
-        font-size: 4rem;
-    }
+  #loisirs i {
+    border: 2px solid #212121;
+    border-radius: 50%;
+    color: #212121;
+    padding: 1.2rem;
+    width: 3rem;
+    height: 3rem;
+  }
 
-    #apropos p
-    {
-        text-align: left;
-        margin-left: 2rem;
-        margin-right: 2rem;
-    }
+  img {
+    width: 70%;
+  }
 
-    #loisirs i
-    {
-        border: 1.6px solid #212121;
-        border-radius: 50%;
-        color: #212121;
-        padding: 1.2rem;
-        width: 3rem;
-        height: 3rem;
-    }
 
-    img
-    {
-        width:70%;
-    }
-
-}
-
-@media screen and  (max-width: 767px)
-/* Affichage en colonne, réduction de la taille des police et des icones,
+/* Format smartphone : Affichage en colonne, réduction de la taille des police et des icones,
 modification pour affichage de la photo */
-{
-    #blocpage
-    {
-        display: flex;
-        flex-direction: column-reverse;
-    }
 
+@media screen and (max-width: 767px) {
+  #blocpage {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 
+  img {
+    position: absolute;
+    top: 2rem;
+    right: 10%;
+    width: 15%;
+  }
 
-    img
-    {
-        position: absolute;
-        top: 2rem;
-        right: 10%;
-        width: 15%;
-    }
+  #partie_gauche,
+  #partie_droite {
+    width: auto;
+  }
 
-    #leftsection, #rightsection
-    {
-        width:auto;
-    }
+  #partie_droite {
+    margin-left: 0rem;
+  }
 
-    #rightsection
-    {
-        margin-left: 0rem;
-    }
+  #partie_gauche :nth-child(2) {
+    order: 2;
+  }
+  #partie_gauche :nth-child(3) {
+    order: 1;
+  }
+  #partie_gauche :nth-child(4) {
+    order: 3;
+  }
 
-    #leftsection :nth-child(2) {order: 2;}
-    #leftsection :nth-child(3) {order: 1;}
-    #leftsection :nth-child(4) {order: 3;}
+  .nom {
+    font-size: 3rem;
+  }
 
+  .poste {
+    font-size: 1.8rem;
+  }
 
-    h1
-    {
-        font-size: 3rem;
-    }
+  #contact {
+    height: auto;
+  }
 
-    h2
-    {
-        font-size: 1.8rem;
-
-    }
-   
-    #contact
-    {
-        height:auto;
-    }
-
-
-}

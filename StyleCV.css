@@ -1,180 +1,160 @@
 /* Eléments principaux de la page */
 
-html
-{
-    font-size: 62.5%
+html {
+  font-size: 62.5%;
 }
 
-body
-{
-    font-family: 'Roboto', 'Trebuchet MS', Arial, sans-serif;
-    color : #455A64;
-    font-size: 1.6rem;
+body {
+  font-family: "Roboto", "Trebuchet MS", Arial, sans-serif;
+  color: #455a64;
+  font-size: 1.6rem;
 }
 
-h1, h3
-{
-    text-transform: uppercase;
+.nom,
+.titre_section {
+  text-transform: uppercase;
 }
 
-h3, h4
-{
-    font-weight: bold;
-    color :#212121;
+.titre_section,
+h4 {
+  font-weight: bold;
+  color: #212121;
 }
 
-#blocpage
-{
-    display:flex;
-    flex-direction: row;
+#blocpage {
+  display: flex;
+  flex-direction: row;
 }
 
-/*leftsection - Partie gauche du CV */
+/*partie gauche - Partie gauche du CV */
 
-
-img 
-{
-        border: 3px solid #6D4C41;
-        border-radius : 50%;
+img {
+  border: 3px solid #6d4c41;
+  border-radius: 50%;
 }
 
-#leftsection
-{
-    color :#212121;
-    background: #BCAAA4;
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    text-align: center;
+#partie_gauche {
+  color: #212121;
+  background: #bcaaa4;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  text-align: center;
 }
 
-#leftsection h3
-{
-    background-color: #212121;
-    color: #BCAAA4;
+#partie_gauche h3 {
+  background-color: #212121;
+  color: #bcaaa4;
 }
 
-#contact p
-{
-    text-align: left;
-    margin-left: 4rem;
+#contact p {
+  text-align: left;
+  margin-left: 4rem;
 }
 
-#apropos p
-{
-    text-align: justify;
-    margin-left: 4rem;
-    margin-right: 4rem;
+#apropos p {
+  text-align: justify;
+  margin-left: 4rem;
+  margin-right: 4rem;
 }
 
-#loisirs i
-{
-    border: 2px solid #212121;
-    border-radius: 50%;
-    color: #212121;
-    padding: 1.4rem;
-    width: 4rem;
-    height: 4rem;
+#loisirs i {
+  border: 2px solid #212121;
+  border-radius: 50%;
+  color: #212121;
+  padding: 1.4rem;
+  width: 4rem;
+  height: 4rem;
 }
 
-#contact
-{
-    height: 25%;
+#contact {
+  height: 25%;
 }
 
-#apropos
-{
-    height: 40%;
+#apropos {
+  height: 40%;
 }
 
-/* rightsection - partie droite du CV */
+/* Partie droite - partie droite du CV */
 /* header */
 
-#rightsection
-{
-    width: 70%;
-    margin-left: 6rem;
-    padding-left: 0;
+#partie_droite {
+  width: 70%;
+  margin-left: 6rem;
+  padding-left: 0;
 }
 
-header h1 span
-{
-    color: #6D4C41;
+.nom span {
+  color: #6d4c41;
 }
 
-header h2 span
-{
-    border-bottom: 2px solid #6D4C41;
+.poste span {
+  border-bottom: 2px solid #6d4c41;
 }
 
-h1
-{
-    font-size: 6rem;
-    margin-bottom: 0;
-    padding-bottom: 0;
+.nom {
+  font-size: 6rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
-h2
-{
- margin-top: 0;
- margin-bottom: 6rem;   
+.poste {
+  margin-top: 0;
+  margin-bottom: 6rem;
 }
 
 /* section formation et experience */
 
-.formation h3, .experience h3, footer h3
-{
-    border-bottom: 2px solid #6D4C41;
-    padding-bottom: 2rem;
+#formation .titre_section,
+#experience .titre_section,
+footer .titre_section {
+  border-bottom: 2px solid #6d4c41;
+  padding-bottom: 2rem;
 }
 
-.formation h3 i, .experience h3 i, footer h3 i
-{
-    margin-right: 4rem;
+#formation .titre_section i,
+#experience .titre_section i,
+footer .titre_section i {
+  margin-right: 4rem;
 }
 
-.formation1, .formation2, .formation3, .experience1, .experience2, .experience3
-{
-    display: flex;
-    flex-direction: row;
-}
-         
-
-.date
-{
-    width: 25%;
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
+.formation1,
+.formation2,
+.formation3,
+.experience1,
+.experience2,
+.experience3 {
+  display: flex;
+  flex-direction: row;
 }
 
-.date p
-{
-    margin-left: 1.5rem;
+.date {
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
 }
 
-.where
-{
-    width: 75%;
+.date p {
+  margin-left: 1.5rem;
 }
 
-#rightsection i
-{
-    color: #6D4C41;
+.etablissement {
+  width: 75%;
 }
 
+#partie_droite i {
+  color: #6d4c41;
+}
 
 /* Footer - Recommandation */
 
-
-
-.reco
-{
-    display:flex;
-    flex-direction: row;
+#reco {
+  display: flex;
+  flex-direction: row;
 }
 
-.reco1, .reco2
- {
-     width: 50%;
- }
+.reco1,
+.reco2 {
+  width: 50%;
+}
