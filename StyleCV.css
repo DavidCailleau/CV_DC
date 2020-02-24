@@ -133,6 +133,7 @@ footer .titre_section i {
   display: flex;
   flex-direction: row;
   align-items: baseline;
+  margin-right: 1.5rem;
 }
 
 .date p {

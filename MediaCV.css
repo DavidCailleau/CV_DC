@@ -6,7 +6,7 @@ Petite résolution = 767px
 ****************************/
 
 /* Format Tablette : réduction de la taille des police, des icones et de la photo */
-@media screen and (max-width: 1024px) {
+@media  (max-width: 1024px) {
   body {
     width: auto;
     font-size: 1.4rem;
@@ -39,7 +39,7 @@ Petite résolution = 767px
 /* Format smartphone : Affichage en colonne, réduction de la taille des police et des icones,
 modification pour affichage de la photo */
 
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
   #blocpage {
     display: flex;
     flex-direction: column-reverse;
